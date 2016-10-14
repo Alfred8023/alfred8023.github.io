@@ -9,10 +9,11 @@ $(document).ready(function() {
     }
     var user = webURL.split(splitFlag)[1].split(".")[0];
     //user = 'yanghanqing';
+    user = 'AlfredL';
     blogListURL = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
     issuesList = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/issues';
     issuesHTML = 'https://github.com/' + user + '/' + user + '.github.io/issues'
-    readmeURL = 'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/About Me.md';
+    readmeURL = 'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/blog/About Me.md';
 
 
     $("#header").text(user + "'s Blog");
